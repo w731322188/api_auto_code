@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="前程贷测试">
+    <test verbose="2" preserve-order="true" name="F:/Project2/TestNGProj">
+        <classes>
+<!--            <class name="com.test.day03.MyLoginTest"/>-->
+<!--            <class name="com.test.day03.MyGetUserInfoTest"/>-->
+
+<!--            <class name="com.test.day04.MyLoginTest"/>-->
+<!--            <class name="com.test.day04.MyGetUserInfoTest"/>-->
+            <class name="com.test.lemon.testcases.RegisterCase"/>
+            <class name="com.test.lemon.testcases.MyLoginCase"/>
+            <class name="com.test.lemon.testcases.MyGetUserInfoCase"/>
+            <class name="com.test.lemon.testcases.RechargeCase"/>
+            <class name="com.test.lemon.testcases.AddLoanCase"/>
+        </classes>
+    </test>
+</suite>
