@@ -18,6 +18,6 @@ public class Constants {
     public static final String BASE_URL = "http://api.lemonban.com/futureloan";
 
     //日志开关 true输出到控制台 false输出到文件
-    public static final boolean IS_DEBUG = true;
+    public static final boolean IS_DEBUG = false;
 
 }
